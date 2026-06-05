@@ -1,0 +1,25 @@
+In programming, you often need to convert data from one type to another. This is known as typecasting.
+
+Your task is to write a program that reads a double-precision floating-point number 
+(a number with a decimal part) from the user and converts it into an integer. 
+When converting a double to an integer, the program should drop (truncate) the decimal portion completely, without rounding up or down.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+A single line containing a double-precision floating-point number, N
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+−10^9 ≤N≤10^9
+
+The input will always be a valid numeric value.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print a single integer representing the truncated value of the input.
