@@ -1,0 +1,31 @@
+Governments often use tax brackets to determine how much income tax a person owes based on their total earnings. 
+Your task is to write a program that calculates the tax owed based on a person's income using a specific set of rules.
+
+Use the following logic to calculate the tax:
+
+If the income is 10,000 or less, the tax is 5% of the income.
+
+If the income is greater than 10,000 but less than or equal to 50,000, the tax is 10% of the income.
+
+If the income is greater than 50,000, the tax is 20% of the income.
+
+Important: The final calculated tax must be output as an integer. If the percentage calculation results in a decimal, 
+you must drop (truncate) the decimal portion entirely. Do not round up.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+A single line containing an integer, income.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+0 <= income <= 1,000,000
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print a single integer representing the total tax owed.
