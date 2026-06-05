@@ -1,0 +1,43 @@
+The university administration wants to digitize their student records. They need a simple program that reads a student's personal details and prints them out in a standardized format to generate an Identity Card.
+
+Your task is to write a program that accepts the student's ERP number, Age, Name, and Address as input and prints them clearly with specific labels.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+The input consists of four lines:
+
+The first line contains an integer, erp (the 5-digit ID).
+
+The second line contains an integer, age.
+
+The third line contains a string, name (may contain spaces).
+
+The fourth line contains a string, address (may contain spaces and special characters like commas).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+10000 <= erp <= 99999
+
+1 <= age <= 100
+
+1 <= length of name <= 100
+
+1 <= length of address <= 100
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print the details in the following format:
+
+Line 1: ERP: [erp_value]
+
+Line 2: Age: [age_value]
+
+Line 3: Name: [name_value]
+
+Line 4: Address: [address_value]
