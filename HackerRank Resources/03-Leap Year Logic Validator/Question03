@@ -1,0 +1,33 @@
+You need to write a program that determines whether a given year is a leap year using a single, complex if statement.
+
+The mathematical rules for determining a leap year are as follows:
+
+It must be divisible by 4.
+
+However, if it is also divisible by 100, it is not a leap year...
+
+...Unless it is also divisible by 400, in which case it is a leap year.
+
+Your task is to take an integer year as input and use these rules to evaluate it.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+A single line containing an integer, year.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+1 <= year <= 100,000
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print a single string in the following format:
+
+If the year is a leap year, print: [year] is a leap year
+
+If the year is not a leap year, print: [year] is not a leap year
