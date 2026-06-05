@@ -1,4 +1,5 @@
-The university administration wants to digitize their student records. They need a simple program that reads a student's personal details and prints them out in a standardized format to generate an Identity Card.
+The university administration wants to digitize their student records. 
+They need a simple program that reads a student's personal details and prints them out in a standardized format to generate an Identity Card.
 
 Your task is to write a program that accepts the student's ERP number, Age, Name, and Address as input and prints them clearly with specific labels.
 
