@@ -1,0 +1,30 @@
+Teachers often need to convert numerical test scores into letter grades. 
+Your task is to write a program that takes a student's numerical score and assigns the correct letter grade using conditional logic.
+
+Use the following grading scale to determine the output:
+
+90 to 100: A
+
+80 to 89: B
+
+70 to 79: C
+
+Below 70: F
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+A single line containing an integer, score, representing the student's numerical grade.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+0 <= score <= 100
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print a single character (A, B, C, or F) representing the student's letter grade.
