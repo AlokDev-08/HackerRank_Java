@@ -1,0 +1,40 @@
+You are building a profile generator for a developer community platform. 
+Your task is to write a program that takes a person's basic information—their first name, last name, age, height, 
+and whether they like programming—and combines these details into a single, perfectly formatted introductory sentence.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+The input consists of five lines, corresponding to the variables you need to store:
+
+The first line contains a string, firstName.
+
+The second line contains a string, lastName.
+
+The third line contains an integer, age.
+
+The fourth line contains a double/float, height (in meters).
+
+The fifth line contains a boolean, likesProgramming (either true or false).
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+1≤Length of firstName≤50
+
+1≤Length of lastName≤50
+
+1≤age≤120
+
+0.5≤height≤3.0
+
+likesProgramming will exactly match the string true or false in lowercase.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print a single sentence substituting the input values into the following template: 
+Hello, my name is [firstName] [lastName]. I am [age] years old, [height] meters tall, and it is [likesProgramming] that I like programming!
