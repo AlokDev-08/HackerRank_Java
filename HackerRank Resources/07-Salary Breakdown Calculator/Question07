@@ -1,0 +1,50 @@
+When an employee receives a job offer, the salary is often stated as CTC (Cost to Company). 
+However, the actual "Take-home" salary is lower because the CTC is divided into various components like House Rent Allowance (HRA), 
+Provident Fund (PF), Insurance, and other charges.
+
+Your task is to write a program that takes an employee's total CTC as an integer input and calculates the exact value of each component.
+Use the following fixed percentages to break down the CTC:
+
+HRA: 20% of the CTC
+
+PF: 10% of the CTC
+
+Insurance: 5% of the CTC
+
+Other Charges: 5% of the CTC
+
+Take-home Salary: The remaining amount (which will be 60% of the CTC)
+
+Note: Assume all calculations will result in whole numbers (you can use integer division or truncate any decimals).
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Input Format
+
+A single line containing an integer, ctc, representing the total Cost to Company.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+
+1000 <= ctc <= 10^8
+
+The input ctc will always be a multiple of 100, ensuring no decimal points are needed for the percentages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Output Format
+
+Print the breakdown of the salary exactly in the following format, with each component on a new line:
+
+CTC: [ctc]
+
+HRA: [hra]
+
+PF: [pf]
+
+Insurance: [insurance]
+
+Other Charges: [other_charges]
+
+Take-home Salary: [take_home]
